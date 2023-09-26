@@ -37,6 +37,13 @@ app.get("/valueofday/:year(\\d{4})-:month(\\d{2})-:day(\\d{2})", (req, res) => {
   res.send(req.params)
 });
 
+
+//http://localhost:3000/admin
+app.get('/c0860506', (req, res) => {
+  res.send('c0860506')
+})
+
+
 //http://localhost:3000/c0860506
 app.get('/c0860506', (req, res) => {
   res.send('c0860506')
